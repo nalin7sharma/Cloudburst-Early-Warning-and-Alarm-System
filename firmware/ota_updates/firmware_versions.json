@@ -1,0 +1,50 @@
+{
+  "latest": {
+    "filename": "firmware_v2.1.0_20241001.bin",
+    "version": "2.1.0",
+    "size": 1048576,
+    "hash": "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234",
+    "upload_time": "2024-10-01T10:30:00Z",
+    "description": "Critical security update with improved anomaly detection",
+    "critical": true,
+    "compatible_hardware": ["esp32-devkit-c", "esp32-wroom-32", "raspberry-pi-4"]
+  },
+  "versions": [
+    {
+      "filename": "firmware_v1.0.0_20240901.bin",
+      "version": "1.0.0",
+      "size": 983040,
+      "hash": "fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+      "upload_time": "2024-09-01T08:00:00Z",
+      "description": "Initial release with basic sensor functionality",
+      "critical": false,
+      "compatible_hardware": ["esp32-devkit-c", "raspberry-pi-4"]
+    },
+    {
+      "filename": "firmware_v2.0.0_20240915.bin",
+      "version": "2.0.0",
+      "size": 1015808,
+      "hash": "1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "upload_time": "2024-09-15T14:20:00Z",
+      "description": "Added TensorFlow Lite models for edge inference",
+      "critical": false,
+      "compatible_hardware": ["esp32-devkit-c", "esp32-wroom-32", "raspberry-pi-4"]
+    },
+    {
+      "filename": "firmware_v2.1.0_20241001.bin",
+      "version": "2.1.0",
+      "size": 1048576,
+      "hash": "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234",
+      "upload_time": "2024-10-01T10:30:00Z",
+      "description": "Critical security update with improved anomaly detection",
+      "critical": true,
+      "compatible_hardware": ["esp32-devkit-c", "esp32-wroom-32", "raspberry-pi-4"]
+    }
+  ],
+  "update_statistics": {
+    "total_updates_served": 247,
+    "successful_updates": 235,
+    "failed_updates": 12,
+    "last_update_time": "2024-10-01T15:45:00Z"
+  }
+}
